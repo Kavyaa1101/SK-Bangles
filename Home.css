@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 235, 204);
+}
+
+.row1,
+.row2 {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.imge {
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    width: 350px;
+}
+
+#products img {
+    border-radius: 20px;
+}
+
+.imge img {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+
+}
+
+
+button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: skyblue;
+}

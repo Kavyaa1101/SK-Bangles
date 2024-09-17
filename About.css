@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(179, 246, 223);
+    background-image: url(images/logo_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.content {
+    color: white;
+    border: solid black 3px;
+    margin: 50px 30px 100px 30px;
+    font-style: italic;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+.content p {
+    font-size: 20x;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fcontent p {
+    padding-left: 20px;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    margin-right: 40px;
+}
+
+.fcontainer img {
+    height: 30px;
+    width: auto;
+    margin: 15px 10px;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 18px;
+}

@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(158, 243, 214);
+}
+
+
+.container {
+    text-align: center;
+
+
+
+}
+
+table tr td {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+.details {
+    margin-left: 600px;
+}
+
+.container button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.container button:hover {
+    background-color: wheat;
+    transform: scale(1.1);
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fcontent p {
+    padding-left: 20px;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    margin-right: 40px;
+}
+
+.fcontainer img {
+    height: 30px;
+    width: auto;
+    margin: 15px 10px;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 18px;
+}

@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(158, 243, 214);
+}
+
+
+nav {
+    background-color: black;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    height: 70px;
+    width: auto;
+    justify-content: space-between;
+
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+
+
+}
+
+.nav-bar ul li {
+
+    margin-right: 70px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* transform: scale(1.1); */
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+
+
+}
+
+.content {
+    display: flex;
+    margin: 0px 20px 20px 0px;
+
+    width: 100%;
+}
+
+.content img {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.content img:hover {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    transform: scale(1.1) rotate(3deg);
+    padding: 5px;
+    /* background-color: rgb(231, 54, 54); */
+}
+
+.content p {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 40px;
+    text-align: justify;
+    width: 500px;
+    height: 300px;
+    margin: 30px 200px 0px 200px;
+}
+
+.container button {
+    margin-left: 1000px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    transition: 1s;
+
+}
+
+.container button:hover {
+    margin-left: 1000px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: wheat;
+    color: black;
+    height: 40px;
+    transform: scale(1.1);
+    font-weight: bold;
+
+}
+
+
+footer {
+    background-color: black;
+
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fcontent {
+
+    padding-left: 20px;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    margin-right: 40px;
+}
+
+.fcontainer img {
+    height: 30px;
+    width: auto;
+    margin: 15px 10px;
+
+
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 18px;
+}
