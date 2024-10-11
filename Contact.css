@@ -1,15 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(158, 243, 214);
+    background-color: lightgray;;
 }
-
 
 .container {
     text-align: center;
-
-
-
 }
 
 table tr td {
@@ -17,7 +13,6 @@ table tr td {
     text-align: center;
     color: black;
     font-weight: bold;
-
 }
 
 .details {
