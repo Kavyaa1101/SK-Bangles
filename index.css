@@ -1,149 +1,152 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(158, 243, 214);
-}
-
-
-nav {
+    background-color: lightgray;
+  }
+  
+  nav {
     background-color: black;
-    padding: 3px;
-    text-align: center;
     display: flex;
-    height: 70px;
-    width: auto;
+    height: 90px;
+    width: 100%;
     justify-content: space-between;
-
-}
-
-.nav-bar ul {
+  }
+  
+  nav img {
+    padding: 10px;
+    height: 70px;
+  }
+  
+  .nav-bar ul {
     list-style-type: none;
     display: flex;
-
-
-}
-
-.nav-bar ul li {
-
-    margin-right: 70px;
-}
-
-.nav-bar a {
+  }
+  
+  .nav-bar ul li {
+    margin: 10px 30px 0px 70px;
+    padding-top: 6px;
+  }
+  
+  .nav-bar a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 27px;
     font-weight: bold;
-}
-
-.nav-bar a:hover {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    /* transform: scale(1.1); */
-}
-
-.container h1 {
+    transition: 1s;
+  }
+  
+  main {
+    height: 520px;
+  }
+  .container h1 {
+    margin-top: 80px;
+    font-size: 50px;
     text-align: center;
-    margin-bottom: 40px;
-
-
-}
-
-.content {
+    transition: 2s;
+  }
+  
+  .container h1:hover {
+    font-size: 50px;
+    text-align: center;
+    color: darkblue;
+  }
+  
+  .content {
     display: flex;
-    margin: 0px 20px 20px 0px;
-
-    width: 100%;
-}
-
-.content img {
-    height: 350px;
-    width: 350px;
-    border-radius: 15px;
-    transition: 1s;
-}
-
-.content img:hover {
-    height: 350px;
-    width: 350px;
-    border-radius: 15px;
-    transform: scale(1.1) rotate(3deg);
-    padding: 5px;
-    /* background-color: rgb(231, 54, 54); */
-}
-
-.content p {
-    font-size: 20px;
-    font-style: italic;
-    line-height: 40px;
+  }
+  
+  .content p {
+    font-size: 25px;
+    width: 900px;
     text-align: justify;
-    width: 500px;
+    margin: 70px 70px 20px 70px;
+  }
+  
+  .content img {
+    border: solid 3px;
     height: 300px;
-    margin: 30px 200px 0px 200px;
-}
-
-.container button {
-    margin-left: 1000px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-    height: 40px;
+    width: 300px;
+    padding: 2px;
     transition: 1s;
-
-}
-
-.container button:hover {
-    margin-left: 1000px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    background-color: wheat;
-    color: black;
-    height: 40px;
-    transform: scale(1.1);
+  }
+  
+  .content img:hover {
+    border: solid 3px;
+    height: 300px;
+    background-color: aqua;
+    transform: scale(1.1) rotate(2deg);
+  }
+  
+  .more_button {
+    margin: 35px 0px 0px 1130px;
+    font-size: 14px;
+    height: 30px;
+    transition: 1s;
+    border-radius: 5px;
+    background-color: aliceblue;
     font-weight: bold;
-
-}
-
-
-footer {
+    margin-left: 1125px;
+  }
+  
+  .more_button:hover {
+    transform: scale(1.3);
+    margin: 35px 0px 0px 1130px;
+    height: 30px;
     background-color: black;
-
     color: white;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.fcontent {
-
-    padding-left: 20px;
-}
-
-.fcontainer {
+    font-weight: bolder;
+    border: solid 3px white;
+  }
+  
+  .footer {
+    height: 2%;
     display: flex;
     justify-content: space-between;
-}
-
-.links {
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 19px;
+  }
+  
+  .media {
     display: flex;
-    margin-right: 40px;
-}
-
-.fcontainer img {
-    height: 30px;
-    width: auto;
-    margin: 15px 10px;
-
-
-
-
-}
-
-.links a {
+  }
+  
+  .media a {
+    margin-left: 10px;
+  }
+  
+  .media img {
+    width: 24px;
+    height: auto;
+  }
+  .media a {
+    padding: px 10px 10px 2px;
     text-decoration: none;
-    color: white;
-    font-weight: 18px;
-}
+    color: black;
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      display: none;
+    }
+  
+    main {
+      width: 100vh;
+    }
+    .container h1 {
+      font-size: 16px;
+      display: block;
+    }
+  
+    .content p {
+      display: block;
+      width: 100vh;
+      height: 1500px;
+    }
+  }
